@@ -1,32 +1,4 @@
-/* reglas
-selectores
-declaraciones
-propiedades
-valores */
 
-
-/* seletor de etiqueta  header - section - article - nav */
-/* header {
-  background: pink;
-  color: red
-} */
-
-/* selector descendente  */
-/* body header div nav ol li a  */
-
-/* selector de clase . */
-
-/* .link */
-
-/* selector de id # */
-/* #portafolio */
-
-
-
-/* gris oscuro = #1d252c */
-/* gris claro = #626262 */
-/* background gris = #1b2127 */
-/* celeste = #026fff */
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?bqb2fe');
@@ -60,7 +32,7 @@ valores */
 
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', system-ui;
   margin: 0;
 }
 
@@ -70,7 +42,7 @@ h3,
 h4,
 h5,
 h6{
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Fjalla One', system-ui;
   font-weight: normal;
   /* font-style: italic; */
 }
@@ -81,6 +53,7 @@ h1 {
   letter-spacing: -.2px;
   color: white;
   margin: 0;
+  max-width: 500px;
   /* margin: 100px 150px 70px 30px; */
   /* text-transform: uppercase; */
   /* text-decoration: dashed; */
@@ -91,7 +64,7 @@ h1 strong {
 h2 {
   color: #026fff;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', system-ui;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
@@ -157,7 +130,7 @@ h2 {
   font-size: 20px;
 }
 .project strong {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Fjalla One', system-ui;
 }
 /* .project-date {
   margin: 10px 0;
@@ -355,7 +328,7 @@ figure {
 }
 
 .form-email h3 { 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', system-ui;
 }
 
 .container {
